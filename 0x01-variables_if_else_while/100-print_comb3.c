@@ -12,12 +12,12 @@ int main(void)
 
 	while (i <= '9')
 	{
-		while (j <= '9');
+		while (j <= '9')
 		{
 			if (!(i > j) || i == j)
 			{
 				putchar(i);
-				putchar(J);
+				putchar(j);
 				if (i == '8' && j == '9')
 				{
 					putchar('\n');
