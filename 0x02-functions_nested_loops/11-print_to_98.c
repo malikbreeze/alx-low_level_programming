@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -20,11 +21,14 @@ if (n != 98)
 printf(", ");
 
 
-} else {
+}
+else
+{
 printf("\n");
 }
 }
-} else if (n < 98)
+}
+else if (n < 98)
 {
 for (; n <= 98; n++)
 {
@@ -34,11 +38,13 @@ if (n != 98)
 printf(", ");
 
 
-} else
+}
+else
 {
 printf("\n");
 }
 }
-} else
+}
+else
 printf("%d\n", n);
 }
